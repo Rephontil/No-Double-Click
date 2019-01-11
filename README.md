@@ -33,6 +33,7 @@ cellClicked() {
 ```
 
 初始化：
+```
 var doubleClickTerminator = require('DoubleClickTerminator');
 doubleClickTerminator.init();
-
+```
