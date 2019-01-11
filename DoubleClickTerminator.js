@@ -3,7 +3,7 @@
  * @Author: Damo 
  * @Date: 2019-01-11 19:09:47 
  * @Last Modified by: Damo
- * @Last Modified time: 2019-01-11 20:23:09
+ * @Last Modified time: 2019-01-11 21:08:12
  */
 
 
@@ -25,7 +25,7 @@ var DoubleClickTerminator = {
      * @param {延时时间,默认500ms} delayDuration
      * @param 返回 true允许操作 or false不允许操作 
      */
-    actionAllowable: function (target, delayDuration = 3000) {
+    actionAllowable: function (target, delayDuration = 500) {
 
         if (!this.timerMap.size) {
             let timer = setTimeout(() => {
